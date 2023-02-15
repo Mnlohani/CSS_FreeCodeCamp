@@ -1,0 +1,15 @@
+body {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: papayawhip;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  color: #333;
+}
+
+/* websites: 
+https://coolors.co/
+https://webaim.org/ */
