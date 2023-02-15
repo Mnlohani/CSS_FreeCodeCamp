@@ -1,0 +1,61 @@
+/* keep code DRY */
+/* element selectors < class selectors < id selectors
+DO not use it . color: purple !important 
+specificity.keegan.st
+*/
+
+html {
+  font-size: 22px; /* this is inhgerited font and typography */
+  border: 1 px solid red; /* this will not be inherited */
+}
+
+/* * {
+  font-family: monospace;
+}
+ */
+
+body {
+  border: 1px;
+}
+
+main {
+  font-family: monospace; /* this will impact only main semantic area */
+}
+
+/* form elements do not inherit so we can do like this. */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* this will check h2 inside h1  */
+h1 h2 {
+  color: blue;
+}
+
+/* casscading and specificity check */
+p {
+  color: purple;
+}
+
+.gray {
+  color: gray;
+}
+
+p {
+  /* element selector */
+  color: red;
+}
+
+#second {
+  /* id selector */
+  font-style: italic;
+}
+
+.highlight {
+  /* class selector */
+  text-transform: uppercase;
+  background-color: gold;
+}
