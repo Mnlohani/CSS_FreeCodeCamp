@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh; /*  this will show as whole body as full page 
+  if the content is smaller than the siye of the page */
+  width: 100%; /* this will prevent horizontal scrollbar */
+}
+
+h1 {
+  border: 2px dashed red;
+  width: 50%;
+  font-size: 3rem;
+  padding: 0.5em;
+}
+
+main {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  width: 40ch;
+}
+/*  1rem = 16px  relative to the root element
+    em  is relative to the parent element
+
+    use of minwidth    
+    use of em with fontsize in the same element  : look at h1
+    */
